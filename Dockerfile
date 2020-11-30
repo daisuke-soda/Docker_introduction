@@ -8,5 +8,5 @@ RUN apt-get install -y \
     yarn
 
 WORKDIR /Docker_introduction
-COPY Gemfile Gemfile.lock /Docker_introduction
+COPY Gemfile Gemfile.lock /Docker_introduction/
 RUN bundle install
